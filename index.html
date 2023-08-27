@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contatos</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
 </head>
 <body>
     <section>
@@ -18,12 +18,12 @@
         </nav>
         <form id="form">
             <input type="text" id="name" placeholder="Nome" required min="1" >
-            <input type="tel" id="cel" placeholder="Telefone">
+            <input type="tel" id="cel" placeholder="Telefone" required min="11">
             <button id="button"><span class="material-symbols-outlined">
                 add
                 </span> Adicionar</button>
         </form>
-        <table id="table">
+        <table id="table" cellspacing="0">
             <thead>
                 <tr>
                     <th>Nome</th>
@@ -38,6 +38,8 @@
             </tbody>
         </table>
     </section>
+    <footer><p>&copy;2023 Todos os direitos reservados.</p>
+    Thalles Rafael</footer>
     <script src="javaScript/script.js"></script>
 </body>
 </html>

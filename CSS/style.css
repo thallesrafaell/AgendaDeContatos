@@ -106,3 +106,18 @@ footer{
     color: white;
     margin: 10px;
 }
+
+.containerform{
+    margin: 10px;
+    text-align: center;
+}
+
+
+#msg{
+    display: none;
+    background-color:   #32663e6c;
+    border-radius: 5px;
+    margin: 10px;
+    color:  #32663E;
+    
+}

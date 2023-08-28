@@ -16,13 +16,16 @@
             <img src="" alt="">
             <h1>Contatos</h1>
         </nav>
-        <form id="form">
-            <input type="text" id="name" placeholder="Nome" required min="1" >
-            <input type="tel" id="cel" placeholder="Telefone" required min="11">
-            <button id="button"><span class="material-symbols-outlined">
-                add
-                </span> Adicionar</button>
-        </form>
+        <div class="containerform">
+            <form id="form">
+                <input type="text" id="name" placeholder="Nome" required min="1" >
+                <input type="tel" id="cel" placeholder="Telefone" required >
+                <button id="button"><span class="material-symbols-outlined">
+                    add
+                    </span> Adicionar</button>
+            </form>
+            <span id="msg"></span>
+        </div>
         <table id="table" cellspacing="0">
             <thead>
                 <tr>
@@ -32,8 +35,6 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Joao silva</td>
-                    <td>(34) 99965-9196</td>
                 </tr>
             </tbody>
         </table>

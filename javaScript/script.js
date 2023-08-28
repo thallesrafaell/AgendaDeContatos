@@ -30,8 +30,7 @@ function addlinhas(){
         numero.push(cel.value)
 
     let linha = `<tr>`
-    linha += `<td id="nomepic"><span id="avatar"class="material-symbols-outlined">
-    person</span>${name.value}</td>`
+    linha += `<td id="nomepic">${name.value}</td>`
     linha += `<td>${cel.value}</td>`
     linha += `</tr>`
 

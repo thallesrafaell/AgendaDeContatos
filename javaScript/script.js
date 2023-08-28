@@ -19,12 +19,20 @@ function addlinhas(){
         erro.style.background = '#ff00005b'
         erro.style.color = '#cc5353'
         erro.style.display = 'block'
+        name.style.outlineColor = '#ff00005b'
+        cel.style.outlineColor = '#ff00005b'
+        name.style.border = "1.5px solid #ff00005b"
+        cel.style.border = "1.5px solid #ff00005b"
 
     } else{
         erro.innerHTML ='Contato Adiconado !'
         erro.style.background = '#32663e6c'
         erro.style.color = '#32663E'
         erro.style.display = 'block'
+        name.style.outlineColor = '#32663E'
+        cel.style.outlineColor = '#32663E'
+        name.style.border = "1px solid #405044"
+        cel.style.border = "1px solid #405044"
 
         nomes.push(name.value)
         numero.push(cel.value)

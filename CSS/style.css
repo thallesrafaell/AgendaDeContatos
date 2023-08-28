@@ -101,6 +101,12 @@ td {
     border-bottom: 1px solid #51665667;
 }
 
+#nomepic{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
 footer{
     text-align: center;
     color: white;
@@ -120,4 +126,9 @@ footer{
     margin: 10px;
     color:  #32663E;
     
+}
+
+#avatar {
+    width: 24px;
+    margin-right: 5px;
 }
